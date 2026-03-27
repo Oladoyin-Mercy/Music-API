@@ -15,7 +15,7 @@ const tracklist = [
         Artist: "Yomi Olabisi",
         Duration: "5:12",
         Genre: "Apala Fusion / Gospel",
-        image: "./Images/Yomi-olabisi.jpg",
+        image: "./Images\Yomi-olabisi.jpg",
     },
 
     {
