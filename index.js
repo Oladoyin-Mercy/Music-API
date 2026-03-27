@@ -1,4 +1,5 @@
 const express = require ('express')
+const cors = require ('cors')
 const app = express();
 
 
@@ -8,6 +9,8 @@ app.listen (port, () => {
     console.log('Artists and their list of songs');
     
 })
+
+app.use(cors());
 
 const tracklist = [
     {
