@@ -11,6 +11,7 @@ app.listen (port, () => {
 })
 
 app.use(cors());
+app.use(express.static('public'));
 
 const tracklist = [
     {
@@ -18,7 +19,7 @@ const tracklist = [
         Artist: "Yomi Olabisi",
         Duration: "5:12",
         Genre: "Apala Fusion / Gospel",
-        image: "./Images\Yomi-olabisi.jpg",
+        image: "/Images/yomi.jpg",
     },
 
     {
@@ -26,7 +27,7 @@ const tracklist = [
         Artist: "Yomi Olabisi",
         Duration: "4:45",
         Genre: "Contemporary Gospel",
-        image: "https://images.example.com/yomi-olabisi.jpg",
+        image: "/Images/yomi.jpg",
     },
 
     {
@@ -34,7 +35,7 @@ const tracklist = [
         Artist: "Asa",
         Duration: "3:51",
         Genre: "Soul/Indie",
-        image: "https://images.example.com/asa.jpg",
+        image: "/Images/asa.jpg",
     },
 
     {
@@ -42,7 +43,7 @@ const tracklist = [
         Artist: "Cece Winans",
         Duration: "4:56",
         Genre: "Gospel",
-        image: "https://images.example.com/cece-winans.jpg",
+        image: "/Images/cece winans.jpg",
     },
 
 
@@ -51,7 +52,8 @@ const tracklist = [
      	Artist: "Nathaniel Bassey",
         Genre: "Gospel",
         Duration: "5:18",
-        image: "https://images.example.com/nathaniel-bassey.jpg",
+        image: "/Images/nathanielbassey.jpg",
+        
     },
 ];
 
